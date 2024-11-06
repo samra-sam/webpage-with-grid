@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-color: black;
+    width: 300px;
+    height: 650px;
+    display: grid;
+    position: fixed;
+    h1{
+        color:rgba(255, 255, 255, 0.873);
+        background-color: rgba(0, 128, 0, 0.729);
+        width: 235px;
+        height: 40px;
+        padding-top: 15px;
+        padding-left: 65px;
+        grid-column: auto;
+    }
+    img{
+      flex-direction: column;
+        grid-column: auto;
+       width: 170px;
+       height: 170px;
+       border: 3px solid seagreen;
+       border-radius: 50%;
+      margin-top: 90px;
+      margin-left: 60px;
+}
+h3{
+    grid-column: auto;
+    border-radius: 20px;
+    color: rgb(0, 128, 0);
+    text-align: center;
+    padding-bottom: 330px;
+    padding-right: 5px;
+   margin-top: 25px;
+}
+h3:hover{
+    color:white;
+}
+}
+    body{
+        background-color: green;
+    }
+    
+   .one {
+    background-color: white;
+    padding: 9px;
+h1{
+   
+   color: black;
+   padding-left: 560px;
+  box-shadow: 0 0 10px darkgreen;
+  font-family:'Times New Roman', Times, serif;
+  
+   }
+   h1:hover{
+    color: darkgreen;
+   }
+}
+
+
+.two {
+   border: 3px solid black;
+    margin-top: 100px;
+    padding: 50px;
+    margin-right: 40px;
+    margin-left: 350px;
+p{
+   
+   color: rgba(245, 245, 245, 0.827);
+   padding-left: 5;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   font-size: 18px;
+   background-color: rgba(0, 0, 0, 0.171);
+  
+   }
+   p:hover{
+    color:black
+   }
+   span{
+    color: whitesmoke;
+   }
+   span:hover{
+    color: black;
+   }
+}
+
+
+.three{
+   background-color: white;
+   margin-top: 30px;
+   padding: 6px;
+   display: grid;
+   gap: 14px;
+   grid-auto-flow: column;
+   grid-auto-columns: 20px;
+
+   a{
+    margin-left: 570px;
+    color: black;
+  font-size: 25px;
+   
+   }
+   a:hover{
+    color: green;
+   }
+}
+
